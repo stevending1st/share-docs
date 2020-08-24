@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- https://v4.bootcss.com/docs/getting-started/introduction/#最基本的模板 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>问卷</title>
+
+    <!-- https://v3.bootcss.com/css/#overview-normalize -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- https://v4.bootcss.com/docs/layout/grid/#grid-options -->
+    <div class="row">
+        <h1 class="text-center">疫情问卷</h1>
+        <form action="#" method="get" class="form-example col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+            <!-- https://v4.bootcss.com/docs/components/forms/ -->
+            <div class="form-group">
+                <label for="name"> 姓名: </label>
+                <input type="text" name="name" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email"> 邮箱: </label>
+                <input type="email" name="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="tel"> 手机: </label>
+                <input type="tel" name="tel" id="tel" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="datetime-local"> 填报时间: </label>
+                <input type="datetime-local" name="datetime-local" id="datetime-local" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <p> 是否接触过病例/疑似病例: </p>
+                <div>
+                    <input type="radio" id="yes" name="ismeet" value="yes" checked>
+                    <label for="yes">是</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="no" name="ismeet" value="no">
+                    <label for="no">否</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="tw"> 体温: </label>
+                <input type="number" id="tw" name="tw" required step="0.1" mix="30.0" max="40.0" class="form-control">
+            </div>
+            <div class="text-center">
+                <!-- https://v4.bootcss.com/docs/components/buttons/#examples -->
+                <input type="reset" value="重置" class="btn  btn-danger">
+                <input type="submit" value="提交" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
