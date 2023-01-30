@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "copydemo": "copyfiles -s demo/*.html ../../dist/2020/0to1",
-    "dev": "nodeppt serve 0to1.md",
-    "build": "rimraf ../../dist/2020/0to1 && nodeppt build 0to1.md -d ../../dist/2020/0to1 && pnpm copydemo"
+    "dev": "nodeppt serve index.md",
+    "build": "rimraf ../../dist/2020/0to1 && nodeppt build index.md -d ../../dist/2020/0to1 && pnpm copydemo"
   }
 }
