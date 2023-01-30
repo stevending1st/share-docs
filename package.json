@@ -2,7 +2,8 @@
   "private": true,
   "packageManager": "pnpm@7.24.3",
   "scripts": {
-    "build": "rimraf dist && pnpm -r run build"
+    "copyreadme": "copyfiles -s README.md ./dist",
+    "build": "rimraf dist && pnpm -r run build && pnpm copyreadme"
   },
   "devDependencies": {
     "@iconify-json/ri": "^1.1.4",
