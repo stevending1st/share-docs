@@ -19,5 +19,5 @@
 使用者可以对本创作进行转载、节选、混编、二次创作，但不得运用于商业目的，且使用时须进行署名，采用本创作的内容必须同样采用本协议进行授权。
 
 [LICENSE]: /LICENSE
-[从“本来无一物”到“山中百花开”]: https://stevending1st.github.io/share-docs/20200823/dist/0to1.html#slide=1
-[疫情问卷]: https://stevending1st.github.io/share-docs/20200823/demo/qn.html
+[从“本来无一物”到“山中百花开”]: https://stevending1st.github.io/share-docs/2020/0to1
+[疫情问卷]: https://stevending1st.github.io/share-docs/2020/0to1/demo/
