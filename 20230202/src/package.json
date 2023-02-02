@@ -1,0 +1,10 @@
+{
+  "name": "20230202",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "rimraf ../../dist/2023/open-source && slidev build --base /2023/open-source/ --out ../../dist/2023/open-source",
+    "export": "slidev export --output ../2023-open-source-cn.pdf --dark"
+  }
+}

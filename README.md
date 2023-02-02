@@ -12,6 +12,10 @@
 
   DEMO: [疫情问卷][疫情问卷]
 
+- 20200202 浅谈开源
+
+  PPT: [浅谈开源][浅谈开源]
+
 ## LICENSE
 
 本仓库原创部分内容遵循 **[署名-非商业性使用-相同方式共享 4.0 国际版 (CC BY-NC-SA 4.0)][LICENSE]**
@@ -21,3 +25,4 @@
 [LICENSE]: /LICENSE
 [从“本来无一物”到“山中百花开”]: https://stevending1st.github.io/share-docs/2020/0to1
 [疫情问卷]: https://stevending1st.github.io/share-docs/2020/0to1/demo/
+[浅谈开源]: https://stevending1st.github.io/share-docs/2023/open-source
