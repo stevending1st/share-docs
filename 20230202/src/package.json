@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "rimraf ../../dist/2023/open-source && slidev build --base /2023/open-source/ --out ../../dist/2023/open-source",
+    "build": "rimraf ../../dist/2023/open-source && slidev build --base /share-docs/2023/open-source/ --out ../../dist/2023/open-source",
     "export": "slidev export --output ../2023-open-source-cn.pdf --dark"
   }
 }
