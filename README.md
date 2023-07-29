@@ -16,6 +16,10 @@
 
   PPT: [浅谈开源][浅谈开源]
 
+- 20230729 市集的故事
+
+  PPT: [市集的故事][市集的故事]
+
 ## LICENSE
 
 本仓库原创部分内容遵循 **[署名-非商业性使用-相同方式共享 4.0 国际版 (CC BY-NC-SA 4.0)][LICENSE]**
@@ -26,3 +30,4 @@
 [从“本来无一物”到“山中百花开”]: https://stevending1st.github.io/share-docs/2020/0to1
 [疫情问卷]: https://stevending1st.github.io/share-docs/2020/0to1/demo/
 [浅谈开源]: https://stevending1st.github.io/share-docs/2023/open-source
+[市集的故事]: https://stevending1st.github.io/share-docs/2023/the-story-of-the-bazaar
