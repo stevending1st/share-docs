@@ -1,0 +1,10 @@
+{
+  "name": "20230729",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "rimraf ../../dist/2023/the-story-of-the-bazaar && slidev build --base /share-docs/2023/the-story-of-the-bazaar/ --out ../../dist/2023/the-story-of-the-bazaar",
+    "export": "slidev export --output ../2023-the-story-of-the-bazaar-cn.pdf --dark"
+  }
+}
