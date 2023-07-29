@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset=UTF-8><title>从“本来无一物”到“山中百花开” - By stevending1st</title><link rel=stylesheet href=https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=https://cdn.staticfile.org/prism/1.15.0/themes/prism.min.css><link rel=stylesheet href=https://cdn.staticfile.org/KaTeX/0.10.0-rc.1/katex.min.css><link href=./css/chunk-vendors.4e4765ff.css rel=stylesheet></head><body><div><article id=webslides><section slide class="slide bg-black-blue aligncenter" image="https://source.unsplash.com/C1HhAQrbykQ/ .dark"><span class="background dark" style="background-image:url('https://source.unsplash.com/C1HhAQrbykQ/')"></span><div class=wrap wrap=true><h1 class="text-landing text-shadow"></h1><h2 class=text-shadow>从“本来无一物”到“山中百花开”</h2><hr><p class=text-intro>By stevending1st</p></div></section><section slide class="slide bg-black-blue aligncenter"><div class=wrap wrap=true><h4>提纲</h4><ul><li>个人简介</li><li>项目分享</li><li>小结</li><li>Q&amp;A</li></ul></div></section><section slide class="slide bg-black-blue"><div class=wrap wrap=true><h2 class="text-shadow aligncenter">stevending1st</h2><hr><ul><li class=text-intro><p>FCC校友，重度拖延症伴有间歇性踌躇满志，半原教旨主义者，白日痴想家。</p></li><li class=text-intro><p>字符串处理研究三级，CURD二级，普通话三级甲等。</p></li></ul></div></section><section slide class="slide bg-black-blue"><div class=wrap wrap=true><h3 class=alignleft>需求与资料</h3><div class=grid><div class=column><h4>基础</h4><ol><li><p>做一个简单的表单。收集：姓名，性别，出生年、月、日，手机号，工作单位，体温.....</p></li><li><p>运用 bootstrap，jquery。</p></li></ol></div><div class=column><h4>进阶</h4><ol><li><p>根据出生年份（粗略）计算年龄。</p></li><li><p>其他。</p></li></ol></div><div class=column><h4>资料</h4><ul><li><p><i class="fa fa-github"></i> <a href=https://github.com/ target=_blank>github</a></p></li><li><p><i class="fa fa-code"></i> <a href=https://developer.mozilla.org/zh-CN/ target=_blank>MDN Web Docs</a></p></li><li><p><i class="fa fa-code"></i> <a href=https://www.bootcss.com/ target=_blank>BootStrap 中文网</a></p></li><li><p><i class="fa fa-code"></i> <a href=https://www.runoob.com/jquery/jquery-tutorial.html target=_blank>jQuery 教程-菜鸟教程</a></p></li></ul></div></div></div></section><section slide class="slide bg-black-blue aligncenter"><div class=wrap wrap=true><h3 class=text-landing>Q&amp;A</h3><p><img src=./img/freecodecamp.png alt=freecodecamp></p></div></section><section slide class="slide bg-black-blue aligncenter"><div class=wrap wrap=true><h2 class=text-landing>Thanks for listening ！</h2><hr><p><strong>特别感谢：</strong></p><ul><li><i class="fa fa-code"></i> 重庆大学网络信息协会</li><li><i class="fa fa-free-code-camp"></i> freeCodeCamp 中文社区</li><li><i class="fa fa-github"></i> nodeppt (@ksky521)</li></ul></div></section></article></div><script src=https://cdn.staticfile.org/echarts/4.8.0/echarts.min.js></script><script>window.pluginsOptions = {}
+
+
+
+    window.webslidesOptions = {}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    let isPrintMode = false;
+    if(~location.search.indexOf('print-pdf')){
+        isPrintMode = true;
+        WebSlides.registerPlugin('scroll', function(){});
+    }
+    const wsOptions = {
+        loop: false
+    };
+    if(window.webslidesOptions){
+        for (let i in webslidesOptions){
+            if(webslidesOptions.hasOwnProperty(i)){
+                wsOptions[i] = webslidesOptions[i];
+            }
+        }
+    }
+    const ws = new WebSlides(wsOptions)
+
+    window.wsInstance = ws;
+    if(isPrintMode){
+        ws.slides.forEach(s=>s.show())
+    }
+}, false)</script><script src=./js/chunk-vendors.js></script><script src=./js/index.js></script></body></html>
